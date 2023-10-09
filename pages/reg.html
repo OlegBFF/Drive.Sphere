@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/reg.css">
+    <title>ДрайвСфера - Главная</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="/index.html">
+        <img src="/img/logo.png" alt="Логотип" width="50" height="50">
+        ДрайвСфера
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/pages/catalog.html">Автомобили</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/pages/aboutus.html">О нас</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/pages/contact.html">Контакты</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto"> 
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-whatsapp"></i> Ватсап - +7 (000) 000 00 00</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Избранное</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/pages/reg.html">Войти</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <main>    
+      <div class="container1">
+        <div class="card">
+          <div class="logo1">
+            <img src="/img/logo.png" alt="Логотип">
+            <h1>ДрайвСфера</h1>
+          </div>
+          <div class="tabs">
+            <div class="tab active" onclick="toggleForm('login')">Вход</div>
+            <div class="tab" onclick="toggleForm('register')">Регистрация</div>
+          </div>
+          <form id="login-form" class="form active">
+            <div class="input-group">
+              <label for="email-login">Почта или номер телефона</label>
+              <input type="text" id="email-login" required>
+              <div class="error-message" id="email-login-error"></div>
+            </div>
+            <div class="input-group">
+              <label for="password-login">Пароль</label>
+              <input type="password" id="password-login" required>
+              <div class="error-message" id="password-login-error"></div>
+            </div>
+            <div class="input-group">
+              <input type="checkbox" id="remember-me">
+              <label for="remember-me">Запомнить меня</label>
+            </div>
+            <button type="submit" class="button">Войти</button>
+            <div class="forgot-password" onclick="toggleRecoveryForm()">Забыли свой пароль?</div>
+          </form>
+          <form id="register-form" class="form">
+            <div class="input-group">
+              <label for="name">Имя</label>
+              <input type="text" id="name" required>
+              <div class="error-message" id="name-error"></div>
+            </div>
+            <div class="input-group">
+              <label for="email-register">Почта</label>
+              <input type="email" id="email-register" required>
+              <div class="error-message" id="email-register-error"></div>
+            </div>
+            <div class="input-group">
+              <label for="phone">Телефон</label>
+              <input type="tel" id="phone" required>
+              <div class="error-message" id="phone-error"></div>
+            </div>
+            <div class="input-group">
+              <label for="password-register">Пароль</label>
+              <input type="password" id="password-register" required>
+              <div class="error-message" id="password-register-error"></div>
+            </div>
+            <div class="input-group">
+              <label for="confirm-password">Повторите пароль</label>
+              <input type="password" id="confirm-password" required>
+              <div class="error-message" id="confirm-password-error"></div>
+            </div>
+            <button type="submit" class="button">Регистрация</button>
+          </form>
+          <form id="recovery-form" class="recovery-form">
+            <div class="input-group">
+              <label for="recovery-email">Введите почту</label>
+              <input type="email" id="recovery-email" required>
+              <div class="error-message" id="recovery-email-error"></div>
+            </div>
+            <button type="submit" class="button">Восстановить пароль</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  <!-- Футтер -->
+<footer class="footer">
+  <div class="container">
+      <div class="footer-content">
+          <div class="footer-logo">
+              <img src="/img/logo.png" alt="Логотип">
+          </div>
+          <div class="footer-links">
+              <ul>
+                  <li><a href="#">О нас</a></li>
+                  <li><a href="#">Контакты</a></li>
+                  <li><a href="#">О проекте</a></li>
+                  <li><a href="#">Помощь</a></li>
+              </ul>
+          </div>
+          <div class="footer-contact">
+              <p>Адрес: Адрес: Москва</p>
+              <p>Телефон: +7 (123) 456-7890</p>
+          </div>
+          <div class="footer-social">
+              <ul>
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <p>&copy; 2023 ДрайвСфера. Все права защищены.</p>
+      </div>
+  </div>
+</footer>
+  <script src="/script/script.js"></script>
+  <script src="/script/reg.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

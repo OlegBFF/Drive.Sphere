@@ -1,0 +1,124 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: white;
+    margin: 0;
+}
+
+/* Стили для раскрывающегося списка */
+.category-select {
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    width: 350px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+
+/* Стили для контейнера с автомобилями */
+.cars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1600px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction:row;
+}
+
+
+
+
+
+.buy-button {
+    margin-top: auto;
+    align-self: flex-end;
+  }
+
+  .buy-button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buy-button:hover {
+    background-color: #005b84;
+}
+
+.car {
+    width: 23%;
+    background-color: white;
+    margin: 10px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 20px; 
+}
+
+.car:hover {
+    transform: scale(1.05);
+}
+
+.car img {
+    max-width: 100%; /* Максимальная ширина изображения */
+    max-height: 200px; /* Максимальная высота изображения */
+    object-fit: cover;
+}
+
+.buy-button,
+.details-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.buy-button:hover,
+.details-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .car {
+        width: 48%;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .car {
+        width: 100%;
+    }
+}
+
+
+.car-image {
+    width: 300px;
+    height: 200px; 
+    object-fit: cover; 
+}

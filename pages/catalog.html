@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/catalog.css">
+    <title>ДрайвСфера - Каталог</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="/index.html">
+            <img src="/img/logo.png" alt="Логотип" width="50" height="50">
+            ДрайвСфера
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/catalog.html">Автомобили</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/aboutus.html">О нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/contact.html">Контакты</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto"> 
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fab fa-whatsapp"></i> Ватсап - +7 (000) 000 00 00</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Избранное</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/reg.html">Войти</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+   
+<main>
+    <h1>Каталог автомобилей</h1>
+    <select id="category-select" class="category-select">
+        <option value="all">Все</option>
+        <option value="Электромобили" id="category-electric">Электромобили</option>
+        <option value="Кроссоверы">Кроссоверы и внедорожники</option>
+        <option value="Мотоциклы">Мотоциклы</option>
+        <option value="Купе">Купе</option>
+        <option value="Универсалы">Универсалы</option>
+        <option value="Седаны">Седаны</option>
+        <option value="Пикапы">Пикапы</option>
+        <option value="Коммерческие">Коммерческие автомобили</option>
+        <option value="Люксовые">Люксовые автомобили</option>
+    </select>
+
+    <!-- автомобили -->
+    <div class="cars">
+ <!-- Электромобили -->
+ <div class="car category-Электромобили">
+    <img src="/img/catalog/Tesla Model 3.webp" alt="Tesla Model 3" class="car-image">
+    <h2>Tesla Model 3</h2>
+    <p>Цена: 2,800,000 руб.</p>
+    <p>Характеристики: Электрический, 258 л.с., 0-100 км/ч за 5.3 сек, Пробег: 450 км, Расход топлива: 0 л/100 км, Разгон: 5.3 сек, Цвет: Черный, Тип: Седан</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Электромобили">
+    <img src="/img/catalog/Nissan Leaf.webp" alt="Nissan Leaf" class="car-image">
+    <h2>Nissan Leaf</h2>
+    <p>Цена: 2,000,000 руб.</p>
+    <p>Характеристики: Электрический, 147 л.с., 0-100 км/ч за 7.9 сек, Пробег: 375 км, Расход топлива: 0 л/100 км, Разгон: 7.9 сек, Цвет: Серебристый, Тип: Хэтчбек</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Электромобили">
+    <img src="/img/catalog/Chevrolet Bolt.webp" alt="Chevrolet Bolt" class="car-image">
+    <h2>Chevrolet Bolt</h2>
+    <p>Цена: 2,400,000 руб.</p>
+    <p>Характеристики: Электрический, 200 л.с., 0-100 км/ч за 6.5 сек, Пробег: 415 км, Расход топлива: 0 л/100 км, Разгон: 6.5 сек, Цвет: Синий, Тип: Кроссовер</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Электромобили">
+    <img src="/img/catalog/BMW i3.webp" alt="BMW i3" class="car-image">
+    <h2>BMW i3</h2>
+    <p>Цена: 2,600,000 руб.</p>
+    <p>Характеристики: Электрический, 170 л.с., 0-100 км/ч за 7.3 сек, Пробег: 320 км, Расход топлива: 0 л/100 км, Разгон: 7.3 сек, Цвет: Белый, Тип: Хэтчбек</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Электромобили">
+    <img src="/img/catalog/Audi e-tron.webp" alt="Audi e-tron" class="car-image">
+    <h2>Audi e-tron</h2>
+    <p>Цена: 4,200,000 руб.</p>
+    <p>Характеристики: Электрический, 402 л.с., 0-100 км/ч за 5.7 сек, Пробег: 360 км, Расход топлива: 0 л/100 км, Разгон: 5.7 сек, Цвет: Красный, Тип: Кроссовер</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Электромобили">
+    <img src="/img/catalog/Jaguar I-PACE.webp" alt="Jaguar I-PACE" class="car-image">
+    <h2>Jaguar I-PACE</h2>
+    <p>Цена: 4,800,000 руб.</p>
+    <p>Характеристики: Электрический, 394 л.с., 0-100 км/ч за 4.8 сек, Пробег: 450 км, Расход топлива: 0 л/100 км, Разгон: 4.8 сек, Цвет: Черный, Тип: Кроссовер</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Электромобили">
+    <img src="/img/catalog/Porsche Taycan.webp" alt="Porsche Taycan" class="car-image">
+    <h2>Porsche Taycan</h2>
+    <p>Цена: 6,200,000 руб.</p>
+    <p>Характеристики: Электрический, 616 л.с., 0-100 км/ч за 2.8 сек, Пробег: 400 км, Расход топлива: 0 л/100 км, Разгон: 2.8 сек, Цвет: Серый, Тип: Седан</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Электромобили">
+    <img src="/img/catalog/Tesla Model S.webp" alt="Tesla Model S" class="car-image">
+    <h2>Tesla Model S</h2>
+    <p>Цена: 5,600,000 руб.</p>
+    <p>Характеристики: Электрический, 762 л.с., 0-100 км/ч за 2.1 сек, Пробег: 600 км, Расход топлива: 0 л/100 км, Разгон: 2.1 сек, Цвет: Белый, Тип: Седан</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<!-- Кроссоверы -->
+<div class="car category-Кроссоверы">
+    <img src="/img/catalog/Toyota RAV4.jpg" alt="Toyota RAV4" class="car-image">
+    <h2>Toyota RAV4</h2>
+    <p>Цена: 2,300,000 руб.</p>
+    <p>Характеристики: Бензин, 203 л.с., Полный привод, Пробег: 400 км, Расход топлива: 8 л/100 км, Разгон: 8.2 сек, Цвет: Серый, Тип: Кроссовер</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Кроссоверы">
+    <img src="/img/catalog/Nissan Rogue.webp" alt="Nissan Rogue" class="car-image">
+    <h2>Nissan Rogue</h2>
+    <p>Цена: 2,500,000 руб.</p>
+    <p>Характеристики: Бензин, 170 л.с., Полный привод, Пробег: 380 км, Расход топлива: 7.5 л/100 км, Разгон: 8.4 сек, Цвет: Синий, Тип: Кроссовер</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Кроссоверы">
+    <img src="/img/catalog/Honda CR-V.webp" alt="Honda CR-V" class="car-image">
+    <h2>Honda CR-V</h2>
+    <p>Цена: 2,250,000 руб.</p>
+    <p>Характеристики: Бензин, 190 л.с., Полный привод, Пробег: 420 км, Расход топлива: 7.8 л/100 км, Разгон: 8.6 сек, Цвет: Белый, Тип: Кроссовер</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Кроссоверы">
+    <img src="/img/catalog/Ford Escape.jpg" alt="Ford Escape" class="car-image">
+    <h2>Ford Escape</h2>
+    <p>Цена: 2,400,000 руб.</p>
+    <p>Характеристики: Бензин, 181 л.с., Полный привод, Пробег: 360 км, Расход топлива: 7.2 л/100 км, Разгон: 8.2 сек, Цвет: Красный, Тип: Кроссовер</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Кроссоверы">
+    <img src="/img/catalog/Subaru Outback.jpg" alt="Subaru Outback" class="car-image">
+    <h2>Subaru Outback</h2>
+    <p>Цена: 2,100,000 руб.</p>
+    <p>Характеристики: Бензин, 182 л.с., Полный привод, Пробег: 385 км, Расход топлива: 7.4 л/100 км, Разгон: 8.0 сек, Цвет: Зеленый, Тип: Универсал</p>
+    <button class="buy-button">Купить</button>
+</div>
+<div class="car category-Кроссоверы">
+    <img src="/img/catalog/Hyundai Tucson.webp" alt="Hyundai Tucson">
+    <h2>Hyundai Tucson</h2>
+    <p>Цена: 2,350,000 руб.</p>
+    <p>Характеристики: Бензин, 180 л.с., Полный привод, Пробег: 410 км, Расход топлива: 7.0 л/100 км, Разгон: 8.5 сек, Цвет: Серый, Тип: Кроссовер</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Кроссоверы">
+    <img src="/img/catalog/Kia Sportage.webp" alt="Kia Sportage">
+    <h2>Kia Sportage</h2>
+    <p>Цена: 2,400,000 руб.</p>
+    <p>Характеристики: Бензин, 182 л.с., Полный привод, Пробег: 390 км, Расход топлива: 7.3 л/100 км, Разгон: 8.0 сек, Цвет: Синий, Тип: Кроссовер</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Кроссоверы">
+    <img src="/img/catalog/Mazda CX-5.webp" alt="Mazda CX-5">
+    <h2>Mazda CX-5</h2>
+    <p>Цена: 2,380,000 руб.</p>
+    <p>Характеристики: Бензин, 187 л.с., Полный привод, Пробег: 405 км, Расход топлива: 7.1 л/100 км, Разгон: 8.3 сек, Цвет: Красный, Тип: Кроссовер</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<!-- Мотоциклы -->
+<div class="car category-Мотоциклы">
+    <img src="/img/catalog/Harley-Davidson Sportster.webp" alt="Harley-Davidson Sportster" class="car-image">
+    <h2>Harley-Davidson Sportster</h2>
+    <p>Цена: 700,000 руб.</p>
+    <p>Характеристики: Бензин, 65 л.с., Классический мотоцикл, Пробег: 300 км, Расход топлива: 5 л/100 км, Разгон: 7.2 сек</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Мотоциклы">
+    <img src="/img/catalog/Yamaha YZF-R6.webp" alt="Yamaha YZF-R6" class="car-image">
+    <h2>Yamaha YZF-R6</h2>
+    <p>Цена: 800,000 руб.</p>
+    <p>Характеристики: Бензин, 117 л.с., Спортивный мотоцикл, Пробег: 250 км, Расход топлива: 6 л/100 км, Разгон: 6.5 сек, Цвет: Синий</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Мотоциклы">
+    <img src="/img/catalog/BMW R 1250 GS.webp" alt="BMW R 1250 GS" class="car-image">
+    <h2>BMW R 1250 GS</h2>
+    <p>Цена: 1,200,000 руб.</p>
+    <p>Характеристики: Бензин, 136 л.с., Эндуро мотоцикл, Пробег: 350 км, Расход топлива: 7 л/100 км, Разгон: 5.8 сек, Цвет: Серый</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Мотоциклы">
+    <img src="/img/catalog/Kawasaki Z900.webp" alt="Kawasaki Z900" class="car-image">
+    <h2>Kawasaki Z900</h2>
+    <p>Цена: 700,000 руб.</p>
+    <p>Характеристики: Бензин, 125 л.с., Спортивный мотоцикл, Пробег: 280 км, Расход топлива: 6.5 л/100 км, Разгон: 4.0 сек, Цвет: Зеленый</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Мотоциклы">
+    <img src="/img/catalog/Ducati Panigale V2.webp" alt="Ducati Panigale V2" class="car-image">
+    <h2>Ducati Panigale V2</h2>
+    <p>Цена: 1,000,000 руб.</p>
+    <p>Характеристики: Бензин, 155 л.с., Спортивный мотоцикл, Пробег: 240 км, Расход топлива: 6 л/100 км, Разгон: 3.5 сек, Цвет: Красный</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Мотоциклы">
+    <img src="/img/catalog/Suzuki V-Strom 650.webp" alt="Suzuki V-Strom 650" class="car-image">
+    <h2>Suzuki V-Strom 650</h2>
+    <p>Цена: 600,000 руб.</p>
+    <p>Характеристики: Бензин, 71 л.с., Туристический мотоцикл, Пробег: 350 км, Расход топлива: 5.5 л/100 км, Разгон: 6.0 сек, Цвет: Черный</p>
+    <button class="buy-button">Купить</button>
+</div>
+<div class="car category-Мотоциклы">
+    <img src="/img/catalog/Harley-Davidson Street.webp" alt="Harley-Davidson Street">
+    <h2>Harley-Davidson Street</h2>
+    <p>Цена: 1,500,000 руб.</p>
+    <p>Характеристики: Бензин, 67 л.с., Круизер, Пробег: 250 км, Расход топлива: 5 л/100 км, Разгон: 5.5 сек, Цвет: Черный, Тип: Мотоцикл</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Мотоциклы">
+    <img src="/img/catalog/Kawasaki Ninja.webp" alt="Kawasaki Ninja">
+    <h2>Kawasaki Ninja</h2>
+    <p>Цена: 1,200,000 руб.</p>
+    <p>Характеристики: Бензин, 175 л.с., Спортбайк, Пробег: 300 км, Расход топлива: 6 л/100 км, Разгон: 3.2 сек, Цвет: Зеленый, Тип: Мотоцикл</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+
+<!-- Купе -->
+<div class="car category-Купе">
+    <img src="/img/catalog/Ford Mustang.webp" alt="Ford Mustang" class="car-image">
+    <h2>Ford Mustang</h2>
+    <p>Цена: 3,500,000 руб.</p>
+    <p>Характеристики: Бензин, 450 л.с., Купе, Пробег: 200 км, Расход топлива: 12 л/100 км, Разгон: 4.3 сек, Цвет: Синий</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Купе">
+    <img src="/img/catalog/Audi TT.webp" alt="Audi TT" class="car-image">
+    <h2>Audi TT</h2>
+    <p>Цена: 3,200,000 руб.</p>
+    <p>Характеристики: Бензин, 220 л.с., Купе, Пробег: 180 км, Расход топлива: 10 л/100 км, Разгон: 5.8 сек, Цвет: Черный</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Купе">
+    <img src="/img/catalog/BMW 4 Series.webp" alt="BMW 4 Series" class="car-image">
+    <h2>BMW 4 Series</h2>
+    <p>Цена: 3,800,000 руб.</p>
+    <p>Характеристики: Бензин, 255 л.с., Купе, Пробег: 220 км, Расход топлива: 11 л/100 км, Разгон: 4.7 сек, Цвет: Серебристый</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Купе">
+    <img src="/img/catalog/Porsche 911.webp" alt="Porsche 911" class="car-image">
+    <h2>Porsche 911</h2>
+    <p>Цена: 6,500,000 руб.</p>
+    <p>Характеристики: Бензин, 450 л.с., Купе, Пробег: 190 км, Расход топлива: 13 л/100 км, Разгон: 3.6 сек, Цвет: Красный</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Купе">
+    <img src="/img/catalog/Chevrolet Camaro.webp" alt="Chevrolet Camaro" class="car-image">
+    <h2>Chevrolet Camaro</h2>
+    <p>Цена: 2,800,000 руб.</p>
+    <p>Характеристики: Бензин, 275 л.с., Купе, Пробег: 210 км, Расход топлива: 12.5 л/100 км, Разгон: 5.0 сек, Цвет: Желтый</p>
+    <button class="buy-button">Купить</button>
+</div>
+<div class="car category-Купе">
+    <img src="/img/catalog/audi_a5.webp" alt="Audi A5">
+    <h2>Audi A5</h2>
+    <p>Цена: 3,200,000 руб.</p>
+    <p>Характеристики: Бензин, 248 л.с., 0-100 км/ч за 5.8 сек, Пробег: 350 км, Расход топлива: 9 л/100 км, Разгон: 5.8 сек, Цвет: Серебристый, Тип: Купе</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Купе">
+    <img src="/img/catalog/bmw_4_series.webp" alt="BMW 4 Series">
+    <h2>BMW 4 Series</h2>
+    <p>Цена: 3,500,000 руб.</p>
+    <p>Характеристики: Бензин, 255 л.с., 0-100 км/ч за 5.6 сек, Пробег: 340 км, Расход топлива: 8.5 л/100 км, Разгон: 5.6 сек, Цвет: Черный, Тип: Купе</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Купе">
+    <img src="/img/catalog/mercedes_c-class_coupe.webp" alt="Mercedes-Benz C-Class Coupe">
+    <h2>Mercedes-Benz C-Class Coupe</h2>
+    <p>Цена: 3,600,000 руб.</p>
+    <p>Характеристики: Бензин, 255 л.с., 0-100 км/ч за 5.9 сек, Пробег: 330 км, Расход топлива: 8.7 л/100 км, Разгон: 5.9 сек, Цвет: Белый, Тип: Купе</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Купе">
+    <img src="/img/catalog/Lexus RC.webp" alt="Lexus RC">
+    <h2>Lexus RC</h2>
+    <p>Цена: 3,300,000 руб.</p>
+    <p>Характеристики: Бензин, 241 л.с., 0-100 км/ч за 7.3 сек, Пробег: 320 км, Расход топлива: 9.2 л/100 км, Разгон: 7.3 сек, Цвет: Синий, Тип: Купе</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Купе">
+    <img src="/img/catalog/ford_mustang_coupe.webp" alt="Ford Mustang Coupe">
+    <h2>Ford Mustang Coupe</h2>
+    <p>Цена: 2,900,000 руб.</p>
+    <p>Характеристики: Бензин, 310 л.с., 0-100 км/ч за 5.2 сек, Пробег: 300 км, Расход топлива: 10 л/100 км, Разгон: 5.2 сек, Цвет: Оранжевый, Тип: Купе</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Купе">
+    <img src="/img/catalog/chevrolet_camaro.webp" alt="Chevrolet Camaro">
+    <h2>Chevrolet Camaro</h2>
+    <p>Цена: 3,100,000 руб.</p>
+    <p>Характеристики: Бензин, 275 л.с., 0-100 км/ч за 5.4 сек, Пробег: 310 км, Расход топлива: 10.5 л/100 км, Разгон: 5.4 сек, Цвет: Черный, Тип: Купе</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Купе">
+    <img src="/img/catalog/gemesis 70 cupe.jpg" alt="Genesis G70 Coupe">
+    <h2>Genesis G70 Coupe</h2>
+    <p>Цена: 3,800,000 руб.</p>
+    <p>Характеристики: Бензин, 272 л.с., 0-100 км/ч за 6.1 сек, Пробег: 350 км, Расход топлива: 9.0 л/100 км, Разгон: 6.1 сек, Цвет: Серый, Тип: Купе</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+
+<!-- Универсалы -->
+<div class="car category-Универсалы">
+    <img src="/img/catalog/Volkswagen Passat Variant.webp" alt="Volkswagen Passat Variant" class="car-image">
+    <h2>Volkswagen Passat Variant</h2>
+    <p>Цена: 2,500,000 руб.</p>
+    <p>Характеристики: Бензин, 190 л.с., Универсал, Пробег: 280 км, Расход топлива: 7 л/100 км, Разгон: 7.8 сек, Цвет: Белый</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Универсалы">
+    <img src="/img/catalog/Audi A6 Avant.webp" alt="Audi A6 Avant" class="car-image">
+    <h2>Audi A6 Avant</h2>
+    <p>Цена: 3,200,000 руб.</p>
+    <p>Характеристики: Дизель, 245 л.с., Универсал, Пробег: 250 км, Расход топлива: 6.5 л/100 км, Разгон: 7.0 сек, Цвет: Серый</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Универсалы">
+    <img src="/img/catalog/BMW 3 Series Touringn.webp" alt="BMW 3 Series Touring" class="car-image">
+    <h2>BMW 3 Series Touring</h2>
+    <p>Цена: 2,800,000 руб.</p>
+    <p>Характеристики: Бензин, 258 л.с., Универсал, Пробег: 260 км, Расход топлива: 8 л/100 км, Разгон: 6.2 сек, Цвет: Серебристый</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Универсалы">
+    <img src="/img/catalog/Volvo V60.webp" alt="Volvo V60" class="car-image">
+    <h2>Volvo V60</h2>
+    <p>Цена: 2,400,000 руб.</p>
+    <p>Характеристики: Дизель, 190 л.с., Универсал, Пробег: 270 км, Расход топлива: 6 л/100 км, Разгон: 7.5 сек, Цвет: Коричневый</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Универсалы">
+    <img src="/img/catalog/Subaru Outbacki.webp" alt="Subaru Outback" class="car-image">
+    <h2>Subaru Outback</h2>
+    <p>Цена: 2,200,000 руб.</p>
+    <p>Характеристики: Бензин, 182 л.с., Универсал, Пробег: 290 км, Расход топлива: 7 л/100 км, Разгон: 7.2 сек, Цвет: Серый</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Универсалы">
+    <img src="/img/catalog/Ford Focus Estate.webp" alt="Ford Focus Estate" class="car-image">
+    <h2>Ford Focus Estate</h2>
+    <p>Цена: 2,000,000 руб.</p>
+    <p>Характеристики: Бензин, 150 л.с., Универсал, Пробег: 300 км, Расход топлива: 7.5 л/100 км, Разгон: 8.0 сек, Цвет: Белый</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Универсалы">
+    <img src="/img/catalog/Skoda Octavia Combi.webp" alt="Skoda Octavia Combi" class="car-image">
+    <h2>Skoda Octavia Combi</h2>
+    <p>Цена: 2,100,000 руб.</p>
+    <p>Характеристики: Бензин, 150 л.с., Универсал, Пробег: 280 км, Расход топлива: 6.8 л/100 км, Разгон: 7.5 сек, Цвет: Серый</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+<div class="car category-Универсалы">
+    <img src="/img/catalog/Kia Ceed SW.webp" alt="Kia Ceed SW" class="car-image">
+    <h2>Kia Ceed SW</h2>
+    <p>Цена: 1,900,000 руб.</p>
+    <p>Характеристики: Бензин, 120 л.с., Универсал, Пробег: 320 км, Расход топлива: 6 л/100 км, Разгон: 9.0 сек, Цвет: Красный</p>
+    <button class="buy-button">Купить</button>
+</div>
+
+        <!-- Седаны -->
+        <div class="car category-Седаны">
+            <img src="/img/catalog/Honda Accord.webp" alt="Honda Accord" class="car-image">
+            <h2>Honda Accord</h2>
+            <p>Цена: 1,800,000 руб.</p>
+            <p>Характеристики: Бензин, 192 л.с., Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Седаны">
+            <img src="/img/catalog/Audi A4.webp" alt="Audi A4" class="car-image">
+            <h2>Audi A4</h2>
+            <p>Цена: 2,500,000 руб.</p>
+            <p>Характеристики: Бензин, 252 л.с., Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Седаны">
+            <img src="/img/catalog/BMW 3 Series.webp" alt="BMW 3 Series" class="car-image">
+            <h2>BMW 3 Series</h2>
+            <p>Цена: 2,800,000 руб.</p>
+            <p>Характеристики: Бензин, 320 л.с., Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Седаны">
+            <img src="/img/catalog/Mercedes-Benz C-Class.webp" alt="Mercedes-Benz C-Class" class="car-image">
+            <h2>Mercedes-Benz C-Class</h2>
+            <p>Цена: 2,900,000 руб.</p>
+            <p>Характеристики: Бензин, 255 л.с., Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Седаны">
+            <img src="/img/catalog/Volvo S60.webp" alt="Volvo S60" class="car-image">
+            <h2>Volvo S60</h2>
+            <p>Цена: 2,600,000 руб.</p>
+            <p>Характеристики: Бензин, 250 л.с., Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Седаны">
+            <img src="/img/catalog/hyundai_sonata.webp" alt="Hyundai Sonata">
+            <h2>Hyundai Sonata</h2>
+            <p>Цена: 2,100,000 руб.</p>
+            <p>Характеристики: Бензин, 180 л.с., 0-100 км/ч за 8.2 сек, Пробег: 420 км, Расход топлива: 7.5 л/100 км, Разгон: 8.2 сек, Цвет: Серебристый, Тип: Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Седаны">
+            <img src="/img/catalog/honda_civic.webp" alt="Honda Civic">
+            <h2>Honda Civic</h2>
+            <p>Цена: 1,800,000 руб.</p>
+            <p>Характеристики: Бензин, 158 л.с., 0-100 км/ч за 7.7 сек, Пробег: 380 км, Расход топлива: 6.8 л/100 км, Разгон: 7.7 сек, Цвет: Красный, Тип: Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Седаны">
+            <img src="/img/catalog/kia_optima.webp" alt="Kia Optima">
+            <h2>Kia Optima</h2>
+            <p>Цена: 2,000,000 руб.</p>
+            <p>Характеристики: Бензин, 185 л.с., 0-100 км/ч за 7.5 сек, Пробег: 400 км, Расход топлива: 7.2 л/100 км, Разгон: 7.5 сек, Цвет: Серый, Тип: Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Седаны">
+            <img src="/img/catalog/nissan_sentra.webp" alt="Nissan Sentra">
+            <h2>Nissan Sentra</h2>
+            <p>Цена: 1,900,000 руб.</p>
+            <p>Характеристики: Бензин, 149 л.с., 0-100 км/ч за 8.0 сек, Пробег: 370 км, Расход топлива: 7.0 л/100 км, Разгон: 8.0 сек, Цвет: Белый, Тип: Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Седаны">
+            <img src="/img/catalog/ford_fusion.webp" alt="Ford Fusion">
+            <h2>Ford Fusion</h2>
+            <p>Цена: 1,250,000 руб.</p>
+            <p>Характеристики: Бензин, 181 л.с., 0-100 км/ч за 7.8 сек, Пробег: 390 км, Расход топлива: 7.4 л/100 км, Разгон: 7.8 сек, Цвет: Синий, Тип: Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Седаны">
+            <img src="/img/catalog/Mazda 6.webp" alt="Mazda 6">
+            <h2>Mazda 6</h2>
+            <p>Цена: 2,300,000 руб.</p>
+            <p>Характеристики: Бензин, 187 л.с., 0-100 км/ч за 7.6 сек, Пробег: 410 км, Расход топлива: 7.0 л/100 км, Разгон: 7.6 сек, Цвет: Черный, Тип: Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Седаны">
+            <img src="/img/catalog/Volkswagen Passat.webp" alt="Volkswagen Passat">
+            <h2>Volkswagen Passat</h2>
+            <p>Цена: 2,400,000 руб.</p>
+            <p>Характеристики: Бензин, 174 л.с., 0-100 км/ч за 8.1 сек, Пробег: 380 км, Расход топлива: 7.2 л/100 км, Разгон: 8.1 сек, Цвет: Серебристый, Тип: Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <!-- Пикапы -->
+        <div class="car category-Пикапы">
+            <img src="/img/catalog/Ford F-150.webp" alt="Ford F-150" class="car-image">
+            <h2>Ford F-150</h2>
+            <p>Цена: 3,500,000 руб.</p>
+            <p>Характеристики: Бензин, 375 л.с., Пикап</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Пикапы">
+            <img src="/img/catalog/Chevrolet Silverado.webp" alt="Chevrolet Silverado" class="car-image">
+            <h2>Chevrolet Silverado</h2>
+            <p>Цена: 3,300,000 руб.</p>
+            <p>Характеристики: Бензин, 355 л.с., Пикап</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Пикапы">
+            <img src="/img/catalog/GMC Sierra.webp" alt="GMC Sierra" class="car-image">
+            <h2>GMC Sierra</h2>
+            <p>Цена: 3,700,000 руб.</p>
+            <p>Характеристики: Бензин, 420 л.с., Пикап</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Пикапы">
+            <img src="/img/catalog/Ram 1500.webp" alt="Ram 1500" class="car-image">
+            <h2>Ram 1500</h2>
+            <p>Цена: 3,450,000 руб.</p>
+            <p>Характеристики: Бензин, 395 л.с., Пикап</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Пикапы">
+            <img src="/img/catalog/Nissan Titan.webp" alt="Nissan Titan" class="car-image">
+            <h2>Nissan Titan</h2>
+            <p>Цена: 3,000,000 руб.</p>
+            <p>Характеристики: Бензин, 400 л.с., Пикап</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Пикапы">
+            <img src="/img/catalog/Toyota Tacoma.webp" alt="Toyota Tacoma">
+            <h2>Toyota Tacoma</h2>
+            <p>Цена: 2,600,000 руб.</p>
+            <p>Характеристики: Бензин, 278 л.с., Полный привод, Пробег: 370 км, Расход топлива: 9.8 л/100 км, Разгон: 7.3 сек, Цвет: Зеленый, Тип: Пикап</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Пикапы">
+            <img src="/img/catalog/Mitsubishi L200.webp" alt="Mitsubishi L200">
+            <h2>Mitsubishi L200</h2>
+            <p>Цена: 2,300,000 руб.</p>
+            <p>Характеристики: Дизель, 181 л.с., Полный привод, Пробег: 420 км, Расход топлива: 8.2 л/100 км, Разгон: 8.9 сек, Цвет: Белый, Тип: Пикап</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Пикапы">
+            <img src="/img/catalog/Dodge Ram.webp" alt="Dodge Ram">
+            <h2>Dodge Ram</h2>
+            <p>Цена: 3,100,000 руб.</p>
+            <p>Характеристики: Бензин, 395 л.с., Полный привод, Пробег: 410 км, Расход топлива: 13.5 л/100 км, Разгон: 6.2 сек, Цвет: Оранжевый, Тип: Пикап</p>
+            <button class="buy-button">Купить</button>
+        </div>
+        
+        <div class="car category-Пикапы">
+            <img src="/img/catalog/Chevrolet Colorado.webp" alt="Chevrolet Colorado">
+            <h2>Chevrolet Colorado</h2>
+            <p>Цена: 2,750,000 руб.</p>
+            <p>Характеристики: Бензин, 308 л.с., Полный привод, Пробег: 380 км, Расход топлива: 11 л/100 км, Разгон: 7.5 сек, Цвет: Серый, Тип: Пикап</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Пикапы">
+            <img src="/img/catalog/Honda Ridgeline.webp" alt="Honda Ridgeline">
+            <h2>Honda Ridgeline</h2>
+            <p>Цена: 2,650,000 руб.</p>
+            <p>Характеристики: Бензин, 280 л.с., Полный привод, Пробег: 375 км, Расход топлива: 11.2 л/100 км, Разгон: 7.0 сек, Цвет: Зеленый, Тип: Пикап</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Пикапы">
+            <img src="/img/catalog/Nissan Frontier.webp" alt="Nissan Frontier">
+            <h2>Nissan Frontier</h2>
+            <p>Цена: 2,720,000 руб.</p>
+            <p>Характеристики: Бензин, 310 л.с., Полный привод, Пробег: 355 км, Расход топлива: 11.4 л/100 км, Разгон: 7.2 сек, Цвет: Оранжевый, Тип: Пикап</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Пикапы">
+            <img src="/img/catalog/Toyota Tundra.webp" alt="Toyota Tundra">
+            <h2>Toyota Tundra</h2>
+            <p>Цена: 3,150,000 руб.</p>
+            <p>Характеристики: Бензин, 381 л.с., Полный привод, Пробег: 345 км, Расход топлива: 13.2 л/100 км, Разгон: 6.0 сек, Цвет: Синий, Тип: Пикап</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <!-- Коммерческие автомобили -->
+        <div class="car category-Коммерческие">
+            <img src="/img/catalog/Mercedes-Benz Sprinter.webp" alt="Mercedes-Benz Sprinter" class="car-image">
+            <h2>Mercedes-Benz Sprinter</h2>
+            <p>Цена: 2,900,000 руб.</p>
+            <p>Характеристики: Дизель, Грузовик, Объем кузова 10 м³</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Коммерческие">
+            <img src="/img/catalog/Ford Transit.webp" alt="Ford Transit" class="car-image">
+            <h2>Ford Transit</h2>
+            <p>Цена: 2,500,000 руб.</p>
+            <p>Характеристики: Дизель, Грузовик, Объем кузова 12 м³</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Коммерческие">
+            <img src="/img/catalog/Renault Master.webp" alt="Renault Master" class="car-image">
+            <h2>Renault Master</h2>
+            p>Цена: 2,200,000 руб.</p>
+            <p>Характеристики: Дизель, Грузовик, Объем кузова 10 м³</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Коммерческие">
+            <img src="/img/catalog/Citroën Jumper.webp" alt="Citroën Jumper" class="car-image">
+            <h2>Citroën Jumper</h2>
+            <p>Цена: 2,400,000 руб.</p>
+            <p>Характеристики: Дизель, Грузовик, Объем кузова 11 м³</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Коммерческие">
+            <img src="/img/catalog/Peugeot Boxer.webp" alt="Peugeot Boxer" class="car-image">
+            <h2>Peugeot Boxer</h2>
+            <p>Цена: 2,300,000 руб.</p>
+            <p>Характеристики: Дизель, Грузовик, Объем кузова 9 м³</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Коммерческие">
+            <img src="/img/catalog/Nissan NV350.webp" alt="Nissan NV350" class="car-image">
+            <h2>Nissan NV350</h2>
+            <p>Цена: 2,100,000 руб.</p>
+            <p>Характеристики: Бензин, Грузовик, Объем кузова 8 м³</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Коммерческие">
+            <img src="/img/catalog/Fiat Ducato.webp" alt="Fiat Ducato" class="car-image">
+            <h2>Fiat Ducato</h2>
+            <p>Цена: 2,200,000 руб.</p>
+            <p>Характеристики: Дизель, Грузовик, Объем кузова 10 м³</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Коммерческие">
+            <img src="/img/catalog/Hyundai H350.webp" alt="Hyundai H350" class="car-image">
+            <h2>Hyundai H350</h2>
+            <p>Цена: 2,150,000 руб.</p>
+            <p>Характеристики: Дизель, Грузовик, Объем кузова 9 м³</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Коммерческие">
+            <img src="/img/catalog/Mercedes-Benz Vito.webp" alt="Mercedes-Benz Vito" class="car-image">
+            <h2>Mercedes-Benz Vito</h2>
+            <p>Цена: 2,300,000 руб.</p>
+            <p>Характеристики: Дизель, Грузовик, Объем кузова 11 м³</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Коммерческие">
+            <img src="/img/catalog/Volkswagen Crafter.webp" alt="Volkswagen Crafter" class="car-image">
+            <h2>Volkswagen Crafter</h2>
+            <p>Цена: 2,250,000 руб.</p>
+            <p>Характеристики: Дизель, Грузовик, Объем кузова 10 м³</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Коммерческие">
+            <img src="/img/catalog/Iveco Daily.webp" alt="Iveco Daily" class="car-image">
+            <h2>Iveco Daily</h2>
+            <p>Цена: 2,400,000 руб.</p>
+            <p>Характеристики: Дизель, Грузовик, Объем кузова 12 м³</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Коммерческие автомобили">
+            <img src="/img/catalog/ГАЗель Next.webp" alt="ГАЗель Next">
+            <h2>ГАЗель Next</h2>
+            <p>Цена: 2,500,000 руб.</p>
+            <p>Характеристики: Дизель, Грузовик, Объем кузова 10 м³</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <!-- Люксовые автомобили -->
+        <div class="car category-Люксовые">
+            <img src="/img/catalog/Mercedes-Benz C-Class.webp" alt="Mercedes-Benz S-Class" class="car-image">
+            <h2>Mercedes-Benz S-Class</h2>
+            <p>Цена: 10,000,000 руб.</p>
+            <p>Характеристики: Бензин, 450 л.с., Люксовый седан, Пробег: 500 км, Расход топлива: 10 л/100 км, Разгон: 4.8 сек, Цвет: Белый, Тип: Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+        
+        <div class="car category-Люксовые">
+            <img src="/img/catalog/Rolls-Royce Phantom.webp" alt="Rolls-Royce Phantom" class="car-image">
+            <h2>Rolls-Royce Phantom</h2>
+            <p>Цена: 45,000,000 руб.</p>
+            <p>Характеристики: Бензин, 563 л.с., Люксовый седан, Пробег: 450 км, Расход топлива: 15 л/100 км, Разгон: 5.3 сек, Цвет: Белый, Тип: Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+        
+        <div class="car category-Люксовые">
+            <img src="/img/catalog/BMW 7 Series.webp" alt="BMW 7 Series" class="car-image">
+            <h2>BMW 7 Series</h2>
+            <p>Цена: 9,000,000 руб.</p>
+            <p>Характеристики: Бензин, 523 л.с., Люксовый седан, Пробег: 480 км, Расход топлива: 9 л/100 км, Разгон: 5.0 сек, Цвет: Серый, Тип: Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+        
+        <div class="car category-Люксовые">
+            <img src="/img/catalog/Audi A8.webp" alt="Audi A8" class="car-image">
+            <h2>Audi A8</h2>
+            <p>Цена: 8,500,000 руб.</p>
+            <p>Характеристики: Бензин, 496 л.с., Люксовый седан, Пробег: 470 км, Расход топлива: 8 л/100 км, Разгон: 5.2 сек, Цвет: Серебристый, Тип: Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+        
+        <div class="car category-Люксовые">
+            <img src="/img/catalog/Porsche Panamera.webp" alt="Porsche Panamera" class="car-image">
+            <h2>Porsche Panamera</h2>
+            <p>Цена: 9,500,000 руб.</p>
+            <p>Характеристики: Бензин, 523 л.с., Люксовый седан, Пробег: 460 км, Расход топлива: 10 л/100 км, Разгон: 4.6 сек, Цвет: Серый, Тип: Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+        
+        <div class="car category-Люксовые">
+            <img src="/img/catalog/lexus ls.jpg" alt="Lexus LS" class="car-image">
+            <h2>Lexus LS</h2>
+            <p>Цена: 8,000,000 руб.</p>
+            <p>Характеристики: Гибрид, 354 л.с., Люксовый седан, Пробег: 490 км, Расход топлива: 6 л/100 км, Разгон: 5.5 сек, Цвет: Серебристый, Тип: Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+        
+        <div class="car category-Люксовые">
+            <img src="/img/catalog/Jaguar XJ.webp" alt="Jaguar XJ" class="car-image">
+            <h2>Jaguar XJ</h2>
+            <p>Цена: 7,500,000 руб.</p>
+            <p>Характеристики: Бензин, 335 л.с., Люксовый седан, Пробег: 480 км, Расход топлива: 9 л/100 км, Разгон: 5.3 сек, Цвет: Черный, Тип: Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Люксовые автомобили">
+            <img src="/img/catalog/Rolls-Royce Phantom White.webp" alt="Rolls-Royce Phantom">
+            <h2>Rolls-Royce Phantom</h2>
+            <p>Цена: 40,000,000 руб.</p>
+            <p>Характеристики: Бензин, 563 л.с., 0-100 км/ч за 5.3 сек, Пробег: 450 км, Расход топлива: 18 л/100 км, Разгон: 5.3 сек, Цвет: Белый, Тип: Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Люксовые автомобили">
+            <img src="/img/catalog/Bentley Continental.webp" alt="Bentley Continental">
+            <h2>Bentley Continental</h2>
+            <p>Цена: 35,000,000 руб.</p>
+            <p>Характеристики: Бензин, 626 л.с., 0-100 км/ч за 3.7 сек, Пробег: 400 км, Расход топлива: 15 л/100 км, Разгон: 3.7 сек, Цвет: Серебристый, Тип: Купе</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Люксовые автомобили">
+            <img src="/img/catalog/Mercedes-Maybach.webp" alt="Mercedes-Maybach">
+            <h2>Mercedes-Maybach</h2>
+            <p>Цена: 25,000,000 руб.</p>
+            <p>Характеристики: Бензин, 469 л.с., 0-100 км/ч за 4.7 сек, Пробег: 420 км, Расход топлива: 14 л/100 км, Разгон: 4.7 сек, Цвет: Черный, Тип: Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Люксовые автомобили">
+            <img src="/img/catalog/McLaren GT.webp" alt="McLaren GT">
+            <h2>McLaren GT</h2>
+            <p>Цена: 36,500,000 руб.</p>
+            <p>Характеристики: Бензин, 612 л.с., 0-100 км/ч за 3.2 сек, Пробег: 360 км, Расход топлива: 13 л/100 км, Разгон: 3.2 сек, Цвет: Оранжевый, Тип: Купе</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Люксовые автомобили">
+            <img src="/img/catalog/Bantly FLy.jpg" alt="Bentley Flying Spur">
+            <h2>Bentley Flying Spur</h2>
+            <p>Цена: 30,000,000 руб.</p>
+            <p>Характеристики: Бензин, 626 л.с., 0-100 км/ч за 3.8 сек, Пробег: 420 км, Расход топлива: 16 л/100 км, Разгон: 3.8 сек, Цвет: Серый, Тип: Седан</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Люксовые автомобили">
+            <img src="/img/catalog/Lamborghini Huracan.webp" alt="Lamborghini Huracan">
+            <h2>Lamborghini Huracan</h2>
+            <p>Цена: 27,800,000 руб.</p>
+            <p>Характеристики: Бензин, 610 л.с., 0-100 км/ч за 3.2 сек, Пробег: 350 км, Расход топлива: 17 л/100 км, Разгон: 3.2 сек, Цвет: Желтый, Тип: Купе</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Люксовые автомобили">
+            <img src="/img/catalog/Bugatti Chiron.webp" alt="Bugatti Chiron">
+            <h2>Bugatti Chiron</h2>
+            <p>Цена: 59,000,000 руб.</p>
+            <p>Характеристики: Бензин, 1,479 л.с., 0-100 км/ч за 2.5 сек, Пробег: 350 км, Расход топлива: 22 л/100 км, Разгон: 2.5 сек, Цвет: Черный, Тип: Купе</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Люксовые автомобили">
+            <img src="/img/catalog/Ferrari 812 Superfast.webp" alt="Ferrari 812 Superfast">
+            <h2>Ferrari 812 Superfast</h2>
+            <p>Цена: 34,000,000 руб.</p>
+            <p>Характеристики: Бензин, 800 л.с., 0-100 км/ч за 2.9 сек, Пробег: 350 км, Расход топлива: 16 л/100 км, Разгон: 2.9 сек, Цвет: Красный, Тип: Купе</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="car category-Люксовые автомобили">
+            <img src="/img/catalog/Pagani Huayra.webp" alt="Pagani Huayra">
+            <h2>Pagani Huayra</h2>
+            <p>Цена: 50,000,000 руб.</p>
+            <p>Характеристики: Бензин, 730 л.с., 0-100 км/ч за 3.2 сек, Пробег: 350 км, Расход топлива: 20 л/100 км, Разгон: 3.2 сек, Цвет: Синий, Тип: Купе</p>
+            <button class="buy-button">Купить</button>
+        </div>
+    </div>
+</main>
+
+
+
+
+
+<!-- Футтер -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="/img/logo.png" alt="Логотип">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">О проекте</a></li>
+                    <li><a href="#">Помощь</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <p>Адрес: Москва </p>
+                <p>Телефон: +7 (123) 456-7890</p>
+            </div>
+            <div class="footer-social">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 ДрайвСфера. Все права защищены.</p>
+        </div>
+    </div>
+</footer>
+    <script src="/script/script.js"></script>
+    <script src="/script/catalog.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
